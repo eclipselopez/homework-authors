@@ -13,7 +13,7 @@ server.app.use(express.json({ limit: '50mb' }))
 
 server.app.use(cors({ origin: true, credentials: true }))
 
-server.app.use('/api/autores', routes)
+server.app.use('/api/authors', routes)
 
 server.start()
 
